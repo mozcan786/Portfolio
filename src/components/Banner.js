@@ -17,7 +17,7 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='text[55px] font-bold leading-[0.8] lg:text-[110px]'>
-              BEN <span>MUHAMMED</span>
+              I'm <span>MUHAMMED</span>
             </motion.h1>
             <motion.div
               variants={fadeIn('up', 0.4)}
@@ -66,7 +66,7 @@ const Banner = () => {
               <a href='https://github.com/mozcan786' rel="noreferrer noopener" target='_blank'>
                 <FaGithub />
               </a>
-              <a href='www.linkedin.com/in/muhammedzcn/' rel="noreferrer noopener" target='_blank'>
+              <a href='https://www.linkedin.com/in/muhammedzcn/' rel="noreferrer noopener" target='_blank'>
                 <FaLinkedin />
               </a>
             </motion.div>
