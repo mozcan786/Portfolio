@@ -25,17 +25,17 @@ const Work = () => {
               <p className='max-w-sm mb-16'>
                 Some of my projects that i recently uploaded to github.
               </p>
-              <a href='https://github.com/mozcan786/'  rel="noreferrer noopener" target='_blank'>
+              <a href='https://github.com/mozcan786/'  rel="noreferrer noopener" target='_blank' aria-label='learn more' title="learn more">
                 <button className='btn btn-sm'>View all project</button>
               </a>
             </div>
             {/* image */}
-            <a href="https://github.com/mozcan786/movies_list_app"  rel="noreferrer noopener" target='_blank'>
+            <a href="https://github.com/mozcan786/movies_list_app"  rel="noreferrer noopener" target='_blank' aria-label='learn more' title="learn more">
               <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
                 {/* overlay */}
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 {/* img */}
-                <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt='' />
+                <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt='portfolio' />
                 {/* pretitle */}
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                   <span className='text-gradient'>FRONT-END DEVELOPER</span>
@@ -54,12 +54,12 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-10  mt-auto'>
             {/* image */}
-            <a href="https://github.com/mozcan786/HavaDurumu"  rel="noreferrer noopener" target='_blank'>
+            <a href="https://github.com/mozcan786/HavaDurumu"  rel="noreferrer noopener" target='_blank' aria-label='learn more' title="learn more">
               <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
                 {/* overlay */}
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 {/* img */}
-                <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt='' />
+                <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt='portfolio' />
                 {/* pretitle */}
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                   <span className='text-gradient'>FRONT-END DEVELOPER</span>
@@ -71,12 +71,12 @@ const Work = () => {
               </div>
             </a>
             {/* image */}
-            <a href="https://github.com/mozcan786/MyPortfolio"  rel="noreferrer noopener" target='_blank'>
+            <a href="https://github.com/mozcan786/MyPortfolio"  rel="noreferrer noopener" target='_blank' aria-label='learn more' title="learn more">
               <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
                 {/* overlay */}
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 {/* img */}
-                <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt='' />
+                <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt='portfolio' />
                 {/* pretitle */}
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                   <span className='text-gradient'>FRONT-END DEVELOPER</span>

@@ -87,13 +87,13 @@ const Services = () => {
                   <div className='border border-white/20 p-1 rounded'
                     key={index}>
                     <div className='flex items-center justify-center'>
-                      <h6 className='font-bold font-secondary leading-tight '>{service.name}</h6>
+                      <p className='font-bold font-secondary leading-tight '>{service.name}</p>
                     </div>
                     <div className='flex items-center gap-x-2 '>
-                      <a href='#' className='text-gradient text-sm'>
+                      <a href='/' aria-label='learn more'  title="learn more" className='text-gradient text-sm'>
                         {service.link}
                       </a>
-                      <a href='#' className='btn w-9 h-9  flex justify-center items-center'>
+                      <a href='/' aria-label='learn more'  title="learn more" className='btn w-9 h-9  flex justify-center items-center'>
                         <BsArrowUpRight />
                       </a>
                     </div>

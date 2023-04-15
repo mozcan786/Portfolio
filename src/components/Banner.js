@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Image from '../assets/avatar.png'
+import Avatar from '../assets/avatar.png'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
@@ -51,10 +51,10 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <a href="mailto:muhammedozcan786@gmail.com">
+              <a href="mailto:muhammedozcan786@gmail.com" aria-label='learn more'>
                 <button className='btn btn-lg'>Contact me</button>
               </ a>
-              <a href='#' className='text-gradient btn-link'>My Portfolio</a>
+              <a href='/' className='text-gradient btn-link' aria-label='learn more' title="learn more">My Portfolio</a>
             </motion.div>
             {/* social */}
             <motion.div
@@ -63,10 +63,10 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='https://github.com/mozcan786' rel="noreferrer noopener" target='_blank'>
+              <a href='https://github.com/mozcan786' rel="noreferrer noopener" target='_blank'  aria-label='learn more' title="learn more">
                 <FaGithub />
               </a>
-              <a href='https://www.linkedin.com/in/muhammedzcn/' rel="noreferrer noopener" target='_blank'>
+              <a href='https://www.linkedin.com/in/muhammedzcn/' rel="noreferrer noopener" target='_blank' aria-label='learn more' title="learn more">
                 <FaLinkedin />
               </a>
             </motion.div>
@@ -75,8 +75,8 @@ const Banner = () => {
             variants={fadeIn('down', 0.5)}
             initial="hidden"
             whileInView={'show'}
-            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mix-blend-overlay'>
-            <img src={Image} alt='' />
+            className='hidden lg:flex items-center flex-1  mix-blend-overlay'>
+            <img src={Avatar} alt='Avatar' className=' xl:h-[482px] xl:w-[482px] h-[343px] w-[343px] ' />
           </motion.div>
         </div>
       </div>

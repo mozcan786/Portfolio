@@ -14,7 +14,7 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 '>
             <div>
-              <h4 className='text-xl uppercase text-accent font-mediummb-2 tracking-wide'>Get in touch</h4>
+              <p className='text-xl uppercase text-accent font-mediummb-2 tracking-wide'>Get in touch</p>
               <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>Lets Work <br /> together!</h2>
             </div>
           </motion.div>
